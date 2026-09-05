@@ -388,14 +388,20 @@ with a short randomized pause between calls.
 | Peak concurrent virtual users | **1,000** |
 | Total HTTP requests | 96,949 |
 | Completed iterations | 31,972 |
+| Successful logins | 1,000 (one per peak concurrent VU) |
 | **HTTP failure rate** | **0.00%** (0 of 96,949) |
 | **Checks passed** | **96,949 / 96,949 (100%)** |
 | Throughput | 146.2 req/s |
+| Average latency | 2.16 s |
 | Median latency | 1.84 s |
 | p90 / p95 latency | 4.54 s / 4.87 s |
 | Min / max latency | 4 ms / 6.41 s |
 | Data received / sent | 876 MB / 27 MB |
 | Test duration | 11m 03s |
+
+<p align="center"><img src="projectimages/24-load-test-results.png" width="720" alt="Load test results summary table"></p>
+
+<p align="center"><i>Results summary from the load-test report.</i></p>
 
 ### Findings
 
